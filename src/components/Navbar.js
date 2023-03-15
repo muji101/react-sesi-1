@@ -5,7 +5,7 @@ function Navbar(props) {
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="">{!props.navValue ? "Contact" : props.navValue}</a></li>
                 <li><a href="">{props.test}</a></li>
             </ul>
         </div>
